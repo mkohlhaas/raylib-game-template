@@ -1,4 +1,4 @@
-Install required software for Void Linux:
+Install required software for Void Linux: ([here the raylib instructions for Ubuntu](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#ubuntu))
 ```shell
 $ sudo xbps-install glibc-devel libX11-devel libXcursor-devel libXinerama-devel libXrandr-devel glfw-devel perl-List-MoreUtils cpanminus libunwind-devel
 $ sudo cpanm FFI::Platypus::Lang::CPP::Demangle::XS
