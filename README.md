@@ -1,3 +1,9 @@
+Install required software for Void Linux:
+```shell
+$ sudo xbps-install glibc-devel libX11-devel libXcursor-devel libXinerama-devel libXrandr-devel glfw-devel perl-List-MoreUtils cpanminus libunwind-devel
+$ sudo cpanm FFI::Platypus::Lang::CPP::Demangle::XS
+```
+
 ```shell
 $ git clone https://github.com/raysan5/raylib-game-template.git
 $ cd raylib-game-template/src
@@ -15,6 +21,7 @@ In gdb you can do something like this:
 (gdb) continue
 ```
 
+Trace cwrap output:
 ```shell
 $ tail -f cwrap.out
 $ make clean
